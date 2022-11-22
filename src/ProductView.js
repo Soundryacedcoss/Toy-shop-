@@ -82,7 +82,6 @@ export const ProductView = () => {
     // setInputValue()
     console.log(productsData);
     const filterProducts = productsData;
-    console.log(filterProducts);
     for (let i = 0; i < filterProducts.length; i++) {
       var temp = Inputvalue.toLowerCase();
       var name = filterProducts[i].name.toLowerCase();
@@ -92,11 +91,8 @@ export const ProductView = () => {
         console.log(productsData[i]);
         SearchvalArr.push(productsData[i]);
         setFilterArr(SearchvalArr);
-        console.log(FilterArr);
+       
       }
-    }
-    if (!name.match(temp)) {
-      alert("Sorry product not found");
     }
   };
   return (
