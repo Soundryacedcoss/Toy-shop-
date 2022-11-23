@@ -91,7 +91,6 @@ export const ProductView = () => {
         console.log(productsData[i]);
         SearchvalArr.push(productsData[i]);
         setFilterArr(SearchvalArr);
-       
       }
     }
   };

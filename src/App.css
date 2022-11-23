@@ -308,7 +308,7 @@ input[type="number"]:focus {
   background-color: lightblue;
   padding: 3% 5% 3% 5%;
   border-style: none;
-  border-radius: 22%;
+  border-radius: 22px;
   margin-left: 4%;
 }
 .Quantitybutton {
@@ -322,8 +322,9 @@ input[type="number"]:focus {
   font-size: 18px;
 }
 .CartImgDiv {
-  width: 60%;
+  width: 80%;
   border-radius: 30%;
+  margin-top: 23%;
   /* height: 13%; */
 }
 .CartImgDiv:hover {
@@ -341,16 +342,22 @@ input[type="number"]:focus {
   margin-right: 20%;
   box-shadow: 0 0 50px #ccc;
 }
-.BackBUtton {
-  margin-top: 1%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-radius: 20%;
-  border-style: none;
-  font-size: 20px;
-  padding-left: 3%;
-  padding-right: 3%;
-  margin-right: 75%;
+.Width{
+  width: 30%;
+}
+.BackBUtton{
+ 
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 22px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 75%;
+    background-color: lightblue;
+  
 }
 .PageDiv{
   /* margin-top: 8%; */

@@ -92,10 +92,10 @@ export const Cart = () => {
         <div className="ProductDetail">
           {productData.cartArr.map((item) => (
             <div className="CartDivDeatail">
-              <div>
-                <img className="CartImgDiv" src={item.image} alt="" />
+              <div className="Width">
+                <img className="CartImgDiv " src={item.image} alt="" />
               </div>{" "}
-              <div className="ProductNameDiv">
+              <div className="ProductNameDiv Width">
                 {" "}
                 <p>{item.name}</p> <p>${item.price}</p>
               </div>{" "}
